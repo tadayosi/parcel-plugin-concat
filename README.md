@@ -1,6 +1,6 @@
 # parcel-plugin-concat
 
-A parcel plugin to concatenate multiple js files into a single bundle js.
+A [parcel](https://parceljs.org/) plugin to concatenate multiple js files into a single bundle js.
 
 ## Install
 
