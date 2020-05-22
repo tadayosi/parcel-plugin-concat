@@ -1,0 +1,25 @@
+{
+  "name": "parcel-plugin-concat",
+  "version": "0.1.0",
+  "description": "Parcel plugin to concatenate multiple js files",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tadayosi/parcel-plugin-concat"
+  },
+  "keywords" : [
+    "parcel",
+    "concat"
+  ],
+  "author": "Tadayoshi Sato <sato.tadayoshi@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "eslint $npm_package_main"
+  },
+  "dependencies": {
+    "concat": "^1.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.0.0"
+  }
+}
