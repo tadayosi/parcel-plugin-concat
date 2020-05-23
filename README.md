@@ -24,7 +24,7 @@ parcel src/**/*.js
 
 However, the output files are not merged but still separated as individual files under `dist/` unless [you manually create a single entry file that requires all the individual assets](https://github.com/parcel-bundler/parcel/issues/2037).
 
-This plugin lets you simply concatenate all the multiple entries before processing so that you can get a single output file. The name of output file adheres to the Parcel comand options `-o` and `--out-file`, but otherwise it's by default `bundle.js`.
+This plugin lets you simply concatenate all the multiple entries before processing so that you can get a single output file. The name of output file adheres to the Parcel command options `-o` and `--out-file`, but otherwise it's by default `bundle.js`.
 
 ## License
 
