@@ -9,6 +9,8 @@ module.exports = bundler => {
   const outFile = bundler.options.outFile ? bundler.options.outFile : defaultOutFile
   const outPath = os.tmpdir() + '/' + outFile
 
+  console.log('\nentryFiles =', entryFiles)
+
   concat(entryFiles, outPath)
   bundler.entryFiles = [outPath]
 }
