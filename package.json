@@ -14,10 +14,7 @@
   "author": "Tadayoshi Sato <sato.tadayoshi@gmail.com>",
   "license": "MIT",
   "files": [
-    "index.js",
-    "package.json",
-    "README.md",
-    "LICENSE"
+    "$npm_package_main"
   ],
   "scripts": {
     "test": "eslint $npm_package_main"
